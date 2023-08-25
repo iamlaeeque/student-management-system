@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Student</title>
+    <link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+<body>
+    <h1>Add Student</h1>
+    <div class="container">
+        
+        <form id="studentForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <span class="error" id="nameError"></span>
+
+            <label for="rollNo">Roll No:</label>
+            <input type="text" id="rollNo" name="rollNo" required>
+            <span class="error" id="rollNoError"></span>
+
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age" required>
+            <span class="error" id="ageError"></span>
+
+            <label for="course">Course:</label>
+            <input type="text" id="course" name="course" required>
+            <span class="error" id="courseError"></span>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <span class="error" id="emailError"></span>
+            <div></div>
+            <button type="submit">Add Student</button>
+        </form>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
